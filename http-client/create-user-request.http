@@ -1,0 +1,7 @@
+POST http://localhost:8502/users
+Content-Type: application/json
+
+{
+  "name": "test",
+  "type": "SENDER"
+}

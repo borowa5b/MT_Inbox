@@ -1,0 +1,2 @@
+GET http://localhost:8502/users?pageSize=10&pageNumber=0
+Content-Type: application/json

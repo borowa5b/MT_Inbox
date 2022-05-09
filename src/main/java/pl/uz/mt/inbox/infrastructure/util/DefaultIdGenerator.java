@@ -2,8 +2,11 @@ package pl.uz.mt.inbox.infrastructure.util;
 
 import pl.uz.mt.inbox.domain.IdGenerator;
 
+import org.springframework.stereotype.Component;
+
 import java.security.SecureRandom;
 
+@Component
 public class DefaultIdGenerator implements IdGenerator {
 
     private static final int LENGTH = 16;

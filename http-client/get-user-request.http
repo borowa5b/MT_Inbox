@@ -1,0 +1,2 @@
+GET http://localhost:8502/users/US66493868701362923
+Content-Type: application/json
