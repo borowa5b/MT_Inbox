@@ -14,7 +14,7 @@ import javax.persistence.Table;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "USER")
+@Table(name = "inbox_user")
 public class MessageUserEntity {
 
     @Id

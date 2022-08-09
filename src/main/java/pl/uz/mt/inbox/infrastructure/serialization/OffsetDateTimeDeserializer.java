@@ -1,4 +1,4 @@
-package pl.uz.mt.inbox.users.infrastructure.serialization;
+package pl.uz.mt.inbox.infrastructure.serialization;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;

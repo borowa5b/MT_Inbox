@@ -14,7 +14,7 @@ import javax.persistence.Table;
 import java.time.OffsetDateTime;
 
 @Entity
-@Table(name = "USER")
+@Table(name = "inbox_user")
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserEntity {

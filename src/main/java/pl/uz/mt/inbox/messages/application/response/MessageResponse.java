@@ -1,12 +1,7 @@
 package pl.uz.mt.inbox.messages.application.response;
 
-import lombok.AllArgsConstructor;
+import java.time.OffsetDateTime;
 
-@AllArgsConstructor
-public class MessageResponse {
+public record MessageResponse(String id, String content, MessageUserResponse sender, MessageUserResponse recipient, OffsetDateTime creationDate) {
 
-    private final String id;
-    private final String content;
-    private final MessageUserResponse sender;
-    private final MessageUserResponse recipient;
 }

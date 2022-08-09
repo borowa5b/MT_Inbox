@@ -1,7 +1,7 @@
 package pl.uz.mt.inbox.infrastructure.configuration;
 
-import pl.uz.mt.inbox.users.infrastructure.serialization.OffsetDateTimeDeserializer;
-import pl.uz.mt.inbox.users.infrastructure.serialization.OffsetDateTimeSerializer;
+import pl.uz.mt.inbox.infrastructure.serialization.OffsetDateTimeDeserializer;
+import pl.uz.mt.inbox.infrastructure.serialization.OffsetDateTimeSerializer;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,2 +1,2 @@
-DELETE http://localhost:8502/users/US76527931796102439
+DELETE http://192.168.0.50:30143/users/US08548201386067812
 Content-Type: application/json

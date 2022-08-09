@@ -1,9 +1,5 @@
 package pl.uz.mt.inbox.messages.application.response;
 
-import lombok.AllArgsConstructor;
+public record MessageUserResponse(String id, String username) {
 
-@AllArgsConstructor
-public class MessageUserResponse {
-
-    private final String username;
 }
